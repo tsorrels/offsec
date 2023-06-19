@@ -1,0 +1,9 @@
+http://192.168.229.143/index.php?sub
+
++ http://192.168.229.143/sub/index (CODE:200|SIZE:5853)                                 
++ http://192.168.229.143/sub/page (CODE:200|SIZE:5830)  
+
+http://192.168.191.141:81/db/
+http://192.168.191.141:81/db/apsystem.sql
+http://192.168.191.141:81/attendance.php
+http://192.168.191.141:81/conn

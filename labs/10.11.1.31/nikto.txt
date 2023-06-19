@@ -1,0 +1,32 @@
+┌──(tsorrels㉿kali01)-[/usr/share/wordlists]
+└─$ nikto -host 10.11.1.31
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          10.11.1.31
++ Target Hostname:    10.11.1.31
++ Target Port:        80
++ Start Time:         2023-03-17 18:56:02 (GMT-7)
+---------------------------------------------------------------------------
++ Server: Microsoft-IIS/10.0
++ Cookie ASPSESSIONIDQSRTAQTQ created without the httponly flag
++ Retrieved x-powered-by header: ASP.NET
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ Retrieved x-aspnet-version header: 4.0.30319
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ Allowed HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ Public HTTP Methods: OPTIONS, TRACE, GET, HEAD, POST 
++ OSVDB-473: /_vti_pvt/access.cnf: Contains HTTP server-specific access control information. Remove or ACL if FrontPage is not being used.
++ OSVDB-473: /_vti_pvt/botinfs.cnf: FrontPage file found. This may contain useful information.
++ OSVDB-473: /_vti_pvt/bots.cnf: FrontPage file found. This may contain useful information.
++ OSVDB-473: /_vti_pvt/service.cnf: Contains meta-information about the web server Remove or ACL if FrontPage is not being used.
++ OSVDB-473: /_vti_pvt/services.cnf: Contains the list of subwebs. Remove or ACL if FrontPage is not being used. May reveal server version if Admin has changed it.
++ OSVDB-473: /_vti_pvt/writeto.cnf: Contains information about form handler result files. Remove or ACL if FrontPage is not being used.
++ OSVDB-3233: /postinfo.html: Microsoft FrontPage default file found.
++ OSVDB-3233: /_vti_inf.html: FrontPage/SharePoint is installed and reveals its version number (check HTML source for more information).
++ /_vti_pvt/uniqperm.cnf: FrontPage/Sharepointfile available.
++ 7915 requests: 0 error(s) and 17 item(s) reported on remote host
++ End Time:           2023-03-17 19:09:06 (GMT-7) (784 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested

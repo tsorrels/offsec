@@ -1,0 +1,25 @@
+└─$ sudo nmap 192.168.207.120 -p-
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-05-28 15:40 PDT
+Nmap scan report for 192.168.207.120
+Host is up (0.052s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 30.96 seconds
+
+
+└─$ sudo nmap -sV 192.168.244.120                    
+[sudo] password for tsorrels: 
+Starting Nmap 7.93 ( https://nmap.org ) at 2023-06-03 13:12 PDT
+Nmap scan report for 192.168.244.120
+Host is up (0.052s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 8.4p1 Debian 5+deb11u1 (protocol 2.0)
+80/tcp open  http    WEBrick httpd 1.6.1 (Ruby 2.7.4 (2021-07-07))
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 20.31 seconds

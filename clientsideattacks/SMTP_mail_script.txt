@@ -1,0 +1,22 @@
+HELO VICTIM
+MAIL FROM:<rmurray@victim>
+RCPT TO:<tharper@victim>
+DATA
+From: [Ross Murray] <rmurray@victim>
+To: <tharper@victim>
+Date: Sun, 06 Nov 2022 14:21:26 -0400
+Subject: urgent patch
+urgent patch
+   
+<a href="http://192.168.119.239">link</a>
+<a href="http://192.168.119.239:80">link</a>
+
+http://192.168.119.239:80
+http://192.168.119.239/putty2.exe
+
+Have a good day!
+Alice
+
+
+.
+QUIT

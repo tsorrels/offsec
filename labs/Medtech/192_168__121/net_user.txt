@@ -1,0 +1,9 @@
+PS C:\TEMP> net user
+net user
+
+User accounts for \\
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest                    
+offsec                   WDAGUtilityAccount       
+The command completed with one or more errors.

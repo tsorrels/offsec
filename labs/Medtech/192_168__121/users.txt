@@ -1,0 +1,22 @@
+Robart Brown
+
+
+
+
+C:\Users>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is DAF8-E4DD
+
+ Directory of C:\Users
+
+10/04/2022  04:59 AM    <DIR>          .
+10/04/2022  12:21 AM    <DIR>          .NET v4.5
+10/04/2022  12:21 AM    <DIR>          .NET v4.5 Classic
+05/17/2023  05:38 PM    <DIR>          Administrator
+10/13/2022  11:47 PM    <DIR>          administrator.MEDTECH
+10/13/2022  11:44 PM    <DIR>          joe
+09/29/2022  04:29 AM    <DIR>          offsec
+09/29/2022  01:57 AM    <DIR>          Public
+               0 File(s)              0 bytes
+               8 Dir(s)  10,123,530,240 bytes free

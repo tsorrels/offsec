@@ -1,0 +1,1 @@
+evil-winrm -i 192.168.250.121 -u joe -P 59858 -p Flowers1

@@ -1,0 +1,27 @@
+d*Evil-WinRM* PS C:\users> dir
+
+
+    Directory: C:\users
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         9/28/2022   9:44 AM                Administrator
+d-----         9/28/2022   2:55 AM                administrator.MEDTECH
+d-----         10/4/2022   5:20 PM                joe
+d-r---         9/28/2022   9:44 AM                Public
+d-----         10/4/2022   5:19 PM                wario
+d-----         9/28/2022   3:52 AM                yoshi
+
+
+
+
+
+*Evil-WinRM* PS C:\users> net user
+
+User accounts for \\
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest
+WDAGUtilityAccount
+The command completed with one or more errors.

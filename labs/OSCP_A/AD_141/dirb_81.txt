@@ -1,0 +1,51 @@
+─$ dirb http://192.168.219.141:81 -r -z 10
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Wed Apr 26 15:09:17 2023
+URL_BASE: http://192.168.219.141:81/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+SPEED_DELAY: 10 milliseconds
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.219.141:81/ ----
+==> DIRECTORY: http://192.168.219.141:81/admin/                                         
+==> DIRECTORY: http://192.168.219.141:81/Admin/                                         
+==> DIRECTORY: http://192.168.219.141:81/ADMIN/                                         
++ http://192.168.219.141:81/aux (CODE:403|SIZE:290)                                     
+==> DIRECTORY: http://192.168.219.141:81/build/                                         
+==> DIRECTORY: http://192.168.219.141:81/BUILD/                                         
++ http://192.168.219.141:81/cgi-bin/ (CODE:403|SIZE:290)                                
++ http://192.168.219.141:81/com1 (CODE:403|SIZE:290)                                    
++ http://192.168.219.141:81/com2 (CODE:403|SIZE:290)                                    
++ http://192.168.219.141:81/com3 (CODE:403|SIZE:290)                                    
++ http://192.168.219.141:81/con (CODE:403|SIZE:290)                                     
++ http://192.168.219.141:81/conn (CODE:200|SIZE:1655)                                   
+==> DIRECTORY: http://192.168.219.141:81/db/                                            
+==> DIRECTORY: http://192.168.219.141:81/DB/                                            
+==> DIRECTORY: http://192.168.219.141:81/dist/                                          
++ http://192.168.219.141:81/header (CODE:200|SIZE:1377)                                 
+==> DIRECTORY: http://192.168.219.141:81/images/                                        
+==> DIRECTORY: http://192.168.219.141:81/Images/                                        
++ http://192.168.219.141:81/index (CODE:200|SIZE:4280)                                  
++ http://192.168.219.141:81/Index (CODE:200|SIZE:4280)                                  
++ http://192.168.219.141:81/index.php (CODE:200|SIZE:4280)                              
++ http://192.168.219.141:81/lpt1 (CODE:403|SIZE:290)                                    
++ http://192.168.219.141:81/lpt2 (CODE:403|SIZE:290)                                    
++ http://192.168.219.141:81/nul (CODE:403|SIZE:290)                                     
++ http://192.168.219.141:81/phpmyadmin (CODE:403|SIZE:290)                              
+==> DIRECTORY: http://192.168.219.141:81/plugins/                                       
++ http://192.168.219.141:81/prn (CODE:403|SIZE:290)                                     
++ http://192.168.219.141:81/scripts (CODE:200|SIZE:269)                                 
++ http://192.168.219.141:81/Scripts (CODE:200|SIZE:269)                                 
+                                                                                        
+-----------------
+END_TIME: Wed Apr 26 15:12:43 2023
+DOWNLOADED: 4612 - FOUND: 18

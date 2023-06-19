@@ -1,0 +1,2 @@
+sc.exe query
+sc.exe start auditTracker

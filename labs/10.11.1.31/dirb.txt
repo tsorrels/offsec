@@ -1,0 +1,11 @@
+
+---- Scanning URL: http://10.11.1.31/ ----
+==> DIRECTORY: http://10.11.1.31/_private/                                             
+==> DIRECTORY: http://10.11.1.31/_vti_cnf/                                             
+==> DIRECTORY: http://10.11.1.31/_vti_log/                                             
+==> DIRECTORY: http://10.11.1.31/_vti_pvt/                                             
+==> DIRECTORY: http://10.11.1.31/_vti_script/                                          
+==> DIRECTORY: http://10.11.1.31/_vti_txt/                                             
+==> DIRECTORY: http://10.11.1.31/aspnet_client/                                        
+==> DIRECTORY: http://10.11.1.31/images/                                               
+==> DIRECTORY: http://10.11.1.31/Images/     

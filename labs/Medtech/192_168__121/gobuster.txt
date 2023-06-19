@@ -1,0 +1,98 @@
+┌──(tsorrels㉿kali01)-[~/src/wordlists/discovery]
+└─$ gobuster dir -u http://192.168.195.121 -w ./asp_files_only.txt
+===============================================================
+Gobuster v3.5
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.195.121
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                ./asp_files_only.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.5
+[+] Timeout:                 10s
+===============================================================
+2023/06/04 07:58:36 Starting gobuster in directory enumeration mode
+===============================================================
+/default.aspx         (Status: 200) [Size: 25997]
+/Default.aspx         (Status: 200) [Size: 25997]
+/Services.aspx        (Status: 200) [Size: 19928]
+/LogIn.aspx           (Status: 200) [Size: 4083]
+/services.aspx        (Status: 200) [Size: 19928]
+/blog.aspx            (Status: 200) [Size: 30752]
+/error.aspx           (Status: 200) [Size: 962]
+/login.aspx           (Status: 200) [Size: 4083]
+/Contact.aspx         (Status: 200) [Size: 46706]
+/Blog.aspx            (Status: 200) [Size: 30752]
+/about.aspx           (Status: 200) [Size: 22575]
+/Error.aspx           (Status: 200) [Size: 962]
+/About.aspx           (Status: 200) [Size: 22575]
+/contact.aspx         (Status: 200) [Size: 46706]
+/Login.aspx           (Status: 200) [Size: 4083]
+Progress: 20412 / 20482 (99.66%)
+===============================================================
+2023/06/04 08:00:00 Finished
+===============================================================
+
+
+└─$ gobuster dir -u http://192.168.207.121 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+===============================================================
+Gobuster v3.5
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.207.121
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.5
+[+] Timeout:                 10s
+===============================================================
+2023/05/28 15:28:44 Starting gobuster in directory enumeration mode
+===============================================================
+/assets               (Status: 301) [Size: 153] [--> http://192.168.207.121/assets/]
+/css                  (Status: 301) [Size: 150] [--> http://192.168.207.121/css/]
+/js                   (Status: 301) [Size: 149] [--> http://192.168.207.121/js/]
+/master               (Status: 301) [Size: 153] [--> http://192.168.207.121/master/]
+/fonts                (Status: 301) [Size: 152] [--> http://192.168.207.121/fonts/]
+/Assets               (Status: 301) [Size: 153] [--> http://192.168.207.121/Assets/]
+/Fonts                (Status: 301) [Size: 152] [--> http://192.168.207.121/Fonts/]
+/*checkout*           (Status: 400) [Size: 3490]
+/CSS                  (Status: 301) [Size: 150] [--> http://192.168.207.121/CSS/]
+/JS                   (Status: 301) [Size: 149] [--> http://192.168.207.121/JS/]
+/*docroot*            (Status: 400) [Size: 3490]
+/*                    (Status: 400) [Size: 3490]
+/http%3A%2F%2Fwww     (Status: 400) [Size: 3490]
+/Master               (Status: 301) [Size: 153] [--> http://192.168.207.121/Master/]
+/http%3A              (Status: 400) [Size: 3490]
+/q%26a                (Status: 400) [Size: 3490]
+/**http%3a            (Status: 400) [Size: 3490]
+/*http%3A             (Status: 400) [Size: 3490]
+/MASTER               (Status: 301) [Size: 153] [--> http://192.168.207.121/MASTER/]
+/**http%3A            (Status: 400) [Size: 3490]
+/http%3A%2F%2Fyoutube (Status: 400) [Size: 3490]
+/http%3A%2F%2Fblogs   (Status: 400) [Size: 3490]
+/http%3A%2F%2Fblog    (Status: 400) [Size: 3490]
+/**http%3A%2F%2Fwww   (Status: 400) [Size: 3490]
+/s%26p                (Status: 400) [Size: 3490]
+/%3FRID%3D2671        (Status: 400) [Size: 3490]
+/devinmoore*          (Status: 400) [Size: 3490]
+/200109*              (Status: 400) [Size: 3490]
+/*dc_                 (Status: 400) [Size: 3490]
+/*sa_                 (Status: 400) [Size: 3490]
+/http%3A%2F%2Fcommunity (Status: 400) [Size: 3490]
+/Chamillionaire%20%26%20Paul%20Wall-%20Get%20Ya%20Mind%20Correct (Status: 400) [Size: 3490]
+/Clinton%20Sparks%20%26%20Diddy%20-%20Dont%20Call%20It%20A%20Comeback%28RuZtY%29 (Status: 400) [Size: 3490]                                                                       
+/DJ%20Haze%20%26%20The%20Game%20-%20New%20Blood%20Series%20Pt (Status: 400) [Size: 3490]
+/http%3A%2F%2Fradar   (Status: 400) [Size: 3490]
+/q%26a2               (Status: 400) [Size: 3490]
+/login%3f             (Status: 400) [Size: 3490]
+/Shakira%20Oral%20Fixation%201%20%26%202 (Status: 400) [Size: 3490]
+/http%3A%2F%2Fjeremiahgrossman (Status: 400) [Size: 3490]
+/http%3A%2F%2Fweblog  (Status: 400) [Size: 3490]
+/http%3A%2F%2Fswik    (Status: 400) [Size: 3490]
+Progress: 220464 / 220561 (99.96%)
+===============================================================
+2023/05/28 15:42:45 Finished
+===============================================================
+                 

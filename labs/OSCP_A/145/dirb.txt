@@ -1,0 +1,26 @@
+─$ dirb http://192.168.229.145 -r -z 10
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Mon Apr 24 15:13:07 2023
+URL_BASE: http://192.168.229.145/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+SPEED_DELAY: 10 milliseconds
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.229.145/ ----
+==> DIRECTORY: http://192.168.229.145/assets/                                           
+==> DIRECTORY: http://192.168.229.145/css/                                              
++ http://192.168.229.145/index.html (CODE:200|SIZE:30823)                               
+==> DIRECTORY: http://192.168.229.145/js/                                               
+                                                                                        
+-----------------
+END_TIME: Mon Apr 24 15:17:19 2023
+DOWNLOADED: 4612 - FOUND: 1

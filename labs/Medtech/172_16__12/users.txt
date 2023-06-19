@@ -1,0 +1,22 @@
+C:\Users\yoshi>net user /domain
+The request will be processed at a domain controller for domain medtech.com.
+
+
+User accounts for \\DC01.medtech.com
+
+-------------------------------------------------------------------------------
+Administrator            Guest                    joe
+krbtgt                   leon                     mario
+offsec                   peach                    wario
+yoshi
+The command completed successfully.
+
+
+C:\Users\yoshi>net user
+
+User accounts for \\DEV04
+
+-------------------------------------------------------------------------------
+Administrator            DefaultAccount           Guest
+WDAGUtilityAccount
+The command completed successfully.

@@ -1,0 +1,24 @@
+─$ dirb http://192.168.219.143:81 -r -z 10
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Wed Apr 26 15:18:13 2023
+URL_BASE: http://192.168.219.143:81/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+OPTION: Not Recursive
+SPEED_DELAY: 10 milliseconds
+
+-----------------
+
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://192.168.219.143:81/ ----
++ http://192.168.219.143:81/index.html (CODE:200|SIZE:3700)                              
++ http://192.168.219.143:81/server-status (CODE:403|SIZE:280)                            
+                                                                                         
+-----------------
+END_TIME: Wed Apr 26 15:21:34 2023
+DOWNLOADED: 4612 - FOUND: 2

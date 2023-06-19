@@ -1,0 +1,46 @@
+   HELO VICTIM
+
+   MAIL FROM:<olynch@victim>
+
+   RCPT TO:<llhale@victim>
+
+   DATA
+
+   From: [Owen Lynch] <olynch@victim>
+
+   To: <lhale@victim>
+
+   Date: Sun, 06 Nov 2022 14:21:26 -0400
+
+   Subject: job application
+
+
+
+   Hi there! job application
+
+   
+
+   <a href="http://192.168.119.239>link</a>
+
+    <a href="http://192.168.119.239:80>link</a>
+
+
+
+http://192.168.119.239:80
+
+http://192.168.119.239
+
+
+
+   Have a good day!
+
+   Alice
+
+
+
+
+
+   .
+
+   QUIT
+

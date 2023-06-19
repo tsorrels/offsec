@@ -1,0 +1,7 @@
+netsh interface portproxy add v4tov4 listenport=59855 listenaddress=192.168.235.141 connectport=5985 connectaddress=10.10.125.142
+
+netsh interface portproxy add v4tov4 listenport=14333 listenaddress=192.168.235.141 connectport=1433 connectaddress=10.10.125.142
+
+netsh advfirewall firewall add rule name="forward_port_rule" protocol=TCP dir=in localip=192.168.235.141 localport=59855 action=allow
+
+wmic /namespace:\\root\cimv2\terminalservices path win32_tsgeneralsetting where "TerminalName='RDP-Tcp'" call SetUserAuthenticationRequired 0

@@ -1,0 +1,4 @@
+/otrs/index.pl
+
+root@localhost
+otrs

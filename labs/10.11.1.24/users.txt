@@ -1,0 +1,42 @@
+
+
+C:\Users> net user /domain
+The request will be processed at a domain controller for domain svcorp.com.
+
+
+User accounts for \\sv-dc01.svcorp.com
+
+-------------------------------------------------------------------------------
+adam                     Administrator            alice                    
+bethany                  bob                      brett                    
+bruce                    carol                    cory                     
+evan                     extmailservice           Guest                    
+HP3service               james                    jeff                     
+joe                      john                     kevin                    
+krbtgt                   mike                     nicky                    
+nina                     pedro                    pete                     
+ralph                    sherlock                 sqlServer                
+tris 
+
+
+
+
+
+
+C:\Users> net user /domain
+The request will be processed at a domain controller for domain svcorp.com.
+
+
+User accounts for \\sv-dc01.svcorp.com
+
+-------------------------------------------------------------------------------
+adam                     Administrator            alice                    
+bethany                  bob                      brett                    
+bruce                    carol                    cory                     
+evan                     extmailservice           Guest                    
+HP3service               james                    jeff                     
+joe                      john                     kevin                    
+krbtgt                   mike                     nicky                    
+nina                     pedro                    pete                     
+ralph                    sherlock                 sqlServer                
+tris 

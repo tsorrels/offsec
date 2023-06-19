@@ -1,0 +1,5 @@
+Editorial Process
+
+All documents must be supplied for edit before final submission. The editorial team leads this process and will collect any document supplied.
+
+To submit a document connect to the FTP server on port 21 using the username: "editor" and the password "MyEditWork". Ensure that any documents are saved in the ".doc" or ".docx" format, this will allow our editors to quickly go through the document and perform editorial work

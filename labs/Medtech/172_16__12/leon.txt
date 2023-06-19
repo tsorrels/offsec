@@ -1,0 +1,26 @@
+Authentication Id : 0 ; 318016 (00000000:0004da40)
+Session           : Interactive from 1
+User Name         : leon
+Domain            : MEDTECH
+Logon Server      : DC01
+Logon Time        : 5/17/2023 7:13:20 PM
+SID               : S-1-5-21-976142013-3766213998-138799841-1105
+        msv :
+         [00000003] Primary
+         * Username : leon
+         * Domain   : MEDTECH
+         * NTLM     : 2e208ad146efda5bc44869025e06544a
+         * SHA1     : 8d1c9e13d2d2c20dbee8b4eacb20b73f06573c96
+         * DPAPI    : a7bad14f64c3cf0d7ae2b5f6392a0b6d
+        tspkg :
+        wdigest :
+         * Username : leon
+         * Domain   : MEDTECH
+         * Password : (null)
+        kerberos :
+         * Username : leon
+         * Domain   : MEDTECH.COM
+         * Password : (null)
+        ssp :
+        credman :
+        cloudap :

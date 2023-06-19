@@ -1,0 +1,1 @@
+gci -hidden -recurse -Filter *.pub > pub.txt

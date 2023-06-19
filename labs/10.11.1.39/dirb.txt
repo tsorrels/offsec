@@ -1,0 +1,9 @@
+GENERATED WORDS: 4612                                                          
+
+---- Scanning URL: http://10.11.1.39/ ----
++ http://10.11.1.39/cgi-bin/ (CODE:403|SIZE:210)                                       
++ http://10.11.1.39/robots.txt (CODE:301|SIZE:184)                                     
+                                                                                       
+-----------------
+END_TIME: Sun Feb 26 18:20:39 2023
+DOWNLOADED: 4612 - FOUND: 2

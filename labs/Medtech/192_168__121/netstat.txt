@@ -1,0 +1,65 @@
+C:\TEMP>netstat -na
+netstat -na
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:80             0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5985           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:47001          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49666          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49667          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49671          0.0.0.0:0              LISTENING
+  TCP    172.16.208.254:139     0.0.0.0:0              LISTENING
+  TCP    172.16.208.254:52964   0.0.0.0:0              LISTENING
+  TCP    192.168.208.121:139    0.0.0.0:0              LISTENING
+  TCP    192.168.208.121:56750  192.168.45.223:443     ESTABLISHED
+  TCP    [::]:80                [::]:0                 LISTENING
+  TCP    [::]:135               [::]:0                 LISTENING
+  TCP    [::]:445               [::]:0                 LISTENING
+  TCP    [::]:5985              [::]:0                 LISTENING
+  TCP    [::]:47001             [::]:0                 LISTENING
+  TCP    [::]:49664             [::]:0                 LISTENING
+  TCP    [::]:49665             [::]:0                 LISTENING
+  TCP    [::]:49666             [::]:0                 LISTENING
+  TCP    [::]:49667             [::]:0                 LISTENING
+  TCP    [::]:49668             [::]:0                 LISTENING
+  TCP    [::]:49669             [::]:0                 LISTENING
+  TCP    [::]:49670             [::]:0                 LISTENING
+  TCP    [::]:49671             [::]:0                 LISTENING
+  UDP    0.0.0.0:123            *:*                    
+  UDP    0.0.0.0:162            *:*                    
+  UDP    0.0.0.0:500            *:*                    
+  UDP    0.0.0.0:4500           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    0.0.0.0:49184          *:*                    
+  UDP    0.0.0.0:58645          *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:55965        *:*                    
+  UDP    127.0.0.1:59516        127.0.0.1:59516        
+  UDP    172.16.208.254:137     *:*                    
+  UDP    172.16.208.254:138     *:*                    
+  UDP    172.16.208.254:1900    *:*                    
+  UDP    172.16.208.254:55964   *:*                    
+  UDP    192.168.208.121:137    *:*                    
+  UDP    192.168.208.121:138    *:*                    
+  UDP    192.168.208.121:1900   *:*                    
+  UDP    192.168.208.121:55963  *:*                    
+  UDP    [::]:123               *:*                    
+  UDP    [::]:162               *:*                    
+  UDP    [::]:500               *:*                    
+  UDP    [::]:4500              *:*                    
+  UDP    [::]:49184             *:*                    
+  UDP    [::]:58645             *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:55962            *:*                    
+
+C:\TEMP>

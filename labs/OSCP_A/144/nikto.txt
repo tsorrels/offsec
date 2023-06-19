@@ -1,0 +1,34 @@
+─$ nikto -host 192.168.229.144
+- Nikto v2.1.6
+---------------------------------------------------------------------------
++ Target IP:          192.168.229.144
++ Target Hostname:    192.168.229.144
++ Target Port:        80
++ Start Time:         2023-04-24 15:19:11 (GMT-7)
+---------------------------------------------------------------------------
++ Server: Apache/2.4.52 (Ubuntu)
++ The anti-clickjacking X-Frame-Options header is not present.
++ The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS
++ The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type
++ No CGI Directories found (use '-C all' to force check all possible dirs)
++ IP address found in the 'location' header. The IP is "127.0.0.2".
++ OSVDB-630: The web server may reveal its internal or real IP in the Location header via a request to /images over HTTP/1.0. The value is "127.0.0.2".
++ Server may leak inodes via ETags, header found with file /, inode: b417, size: 5ee0dedabd440, mtime: gzip
++ Allowed HTTP Methods: POST, OPTIONS, HEAD, GET 
++ OSVDB-3268: /images/: Directory indexing found.
++ OSVDB-3092: /cms/: This might be interesting...
++ OSVDB-3092: /.git/index: Git Index file may contain directory listing information.
++ /.git/HEAD: Git HEAD file found. Full repo details may be present.
++ /.git/config: Git config file found. Infos about repo details may be present.
++ 7915 requests: 0 error(s) and 12 item(s) reported on remote host
++ End Time:           2023-04-24 15:26:01 (GMT-7) (410 seconds)
+---------------------------------------------------------------------------
++ 1 host(s) tested
+
+
+      *********************************************************************
+      Portions of the server's headers (Apache/2.4.52) are not in
+      the Nikto 2.1.6 database or are newer than the known string. Would you like
+      to submit this information (*no server specific data*) to CIRT.net
+      for a Nikto update (or you may email to sullo@cirt.net) (y/n)? n
+

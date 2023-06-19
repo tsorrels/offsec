@@ -1,0 +1,26 @@
+┌──(tsorrels㉿kali01)-[~]
+└─$ gobuster dir -u http://192.168.207.120 -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+===============================================================
+Gobuster v3.5
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://192.168.207.120
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+[+] Negative Status codes:   404
+[+] User Agent:              gobuster/3.5
+[+] Timeout:                 10s
+===============================================================
+2023/05/28 15:49:07 Starting gobuster in directory enumeration mode
+===============================================================
+/index                (Status: 200) [Size: 4649]
+/about                (Status: 301) [Size: 44] [--> http://192.168.207.120/about/]
+/static               (Status: 301) [Size: 46] [--> http://192.168.207.120/static/]
+/assets               (Status: 301) [Size: 46] [--> http://192.168.207.120/assets/]
+/404                  (Status: 200) [Size: 4328]
+Progress: 220537 / 220561 (99.99%)
+===============================================================
+2023/05/28 16:18:45 Finished
+===============================================================
+                                                       

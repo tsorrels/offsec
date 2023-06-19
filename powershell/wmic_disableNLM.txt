@@ -1,0 +1,1 @@
+wmic /namespace:\\root\cimv2\terminalservices path win32_tsgeneralsetting where "TerminalName='RDP-Tcp'" call SetUserAuthenticationRequired 0
